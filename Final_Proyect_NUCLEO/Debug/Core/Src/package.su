@@ -1,0 +1,5 @@
+../Core/Src/package.c:14:15:validate_data	16	static
+../Core/Src/package.c:35:6:convert_snake_case	24	static
+../Core/Src/package.c:56:6:convert_camel_case	24	static
+../Core/Src/package.c:79:6:convert_pascal_case	24	static
+../Core/Src/package.c:103:6:process_package	16	static
