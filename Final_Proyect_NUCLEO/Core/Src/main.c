@@ -5,7 +5,10 @@
   * @brief          : Main program body
   ******************************************************************************
   * @attention
-  *
+  * Copyright (c) 2022, Nahuel Figueroa <nahuu810@gmail.com>
+  *                     Hector Rizo <rizohector@gmail.com>
+  *                     Federico Farfán <farfan.roberto.f@gmail.com>
+  *                     Mario Aguilar <fernandoaguilar731010@gmail.com>
   * Copyright (c) 2022 STMicroelectronics.
   * All rights reserved.
   *

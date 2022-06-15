@@ -1,4 +1,0 @@
-../Core/Src/application.c:63:13:task_c2_out	32	static
-../Core/Src/application.c:79:13:task_c3	24	static
-../Core/Src/application.c:94:5:application	32	static,ignoring_inline_asm
-../Core/Src/application.c:125:6:HAL_UART_TxCpltCallback	16	static

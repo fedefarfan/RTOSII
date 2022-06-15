@@ -1,0 +1,7 @@
+../app/src/c2_frame.c:5:6:timer_call_back	24	static
+../app/src/c2_frame.c:11:6:frame_init	24	static
+../app/src/c2_frame.c:19:6:frame_reset	16	static
+../app/src/c2_frame.c:26:6:frame_process	64	static
+../app/src/c2_frame.c:99:9:calculate_crc	24	static
+../app/src/c2_frame.c:105:9:convert_ascii_to_uint	24	static
+../app/src/c2_frame.c:121:6:convert_uint_to_ascii	24	static

@@ -1,0 +1,2 @@
+../app/src/crc8.c:56:9:crc8_init	4	static
+../app/src/crc8.c:61:9:crc8_calc	32	static

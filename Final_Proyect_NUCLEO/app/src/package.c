@@ -1,6 +1,9 @@
 /**
  * @file package.c
  * @author mario aguilar (fernandoaguilar731010@gmail.com)
+ * Copyright (c) 2022, Nahuel Figueroa <nahuu810@gmail.com>
+ *                     Hector Rizo <rizohector@gmail.com>
+ *                     Federico Farfán <farfan.roberto.f@gmail.com>
  * @brief 
  * @version 0.1
  * @date 2022-06-03
@@ -10,6 +13,7 @@
  */
 
 #include "package.h"
+#include <string.h>
 
 ts_erroy_type validate_data(ts_package *self)
 {
@@ -28,7 +32,6 @@ ts_erroy_type validate_data(ts_package *self)
     {
         return ERROR_INVALID_DATA;
     }
-    
     return NO_ERROR;
 }
 
@@ -115,5 +118,27 @@ void process_package(ts_package *self)
         convert_pascal_case(self);
     }
 }
-
+void trama_error( ts_package *package,ts_erroy_type error)
+{
+	if (error ==ERROR_INVALID_DATA ) {
+	memset(package->buffer+5,'\0',195);
+	package->buffer[5]='E';
+	package->buffer[6]='0';
+	package->buffer[7]='0';
+	package->buffer[8]='0';
+	package->buffer[9]='0';
+	package->buffer[10]=')';
+	package->count_buffer=11;
+	}
+	else if (error ==ERROR_INVALID_OPCODE) {
+	memset(package->buffer+5,'\0',195);
+	package->buffer[5]='E';
+	package->buffer[6]='0';
+	package->buffer[7]='1';
+	package->buffer[8]='0';
+	package->buffer[9]='0';
+	package->buffer[10]=')';
+	package->count_buffer=11;
+	}
+}
 

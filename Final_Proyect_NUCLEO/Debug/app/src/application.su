@@ -1,0 +1,4 @@
+../app/src/application.c:66:13:task_c2_out	24	static
+../app/src/application.c:81:13:task_c3	24	static
+../app/src/application.c:104:5:application	32	static,ignoring_inline_asm
+../app/src/application.c:123:6:HAL_UART_TxCpltCallback	16	static
